@@ -9,6 +9,7 @@ import ReactMarkdown from "react-markdown"
 import remarkGfm from "remark-gfm"
 import { useToast } from "@/components/ui/use-toast"
 
+
 export function MainContent() {
   const { selectedCompany, updateCompanyToneOfVoice } = useCompanies()
   const [inputText, setInputText] = useState("")
